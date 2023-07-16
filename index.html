@@ -1,0 +1,838 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Samsung Clone Website using HTML, CSS and Bootstrap</title>
+
+        <!-- CDN -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link
+            href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,600;1,100&display=swap"
+            rel="stylesheet">
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
+            rel="stylesheet">
+        <script src="https://kit.fontawesome.com/740d6bb987.js"
+            crossorigin="anonymous"></script>
+        <script
+            src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Style -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <!-- nav-start -->
+        <nav class="navbar navbar-expand-lg fw-medium bg-light-subtle"
+            style="font-size: smaller;">
+
+            <div class="container-fluid">
+
+                <img src="Samsung Logo.png" alt="Logo"
+                    width="100" height="15"
+                    class="d-inline-block align-text-top ms-3">
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse p-1 ms-5"
+                    id="navbarSupportedContent">
+
+                    <ul class="navbar-nav me-auto mb-0">
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-1" aria-current="page"
+                                href="#">Shop</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-2" href="#">Mobile</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-3" href="#">TV & AV</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-4" href="#">Home
+                                Appliances</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-5" href="#">Laptops
+                                & Monitors</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-6" href="#">Displays</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-7" href="#">Accessories</a>
+                        </li>
+                        <li class="nav-item">
+                            <a
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder"
+                                id="nav-item-8" href="#">Smart
+                                Things</a>
+                        </li>
+                    </ul>
+
+                    <ul class="nav mb-0 me-5">
+                        <li class="nav-item">
+                            <a href="#"
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder px-2"
+                                id="nav-item-9">Support</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="nav-link link-body-emphasis rounded-pill fw-bolder px-2"
+                                id="nav-item-10">For
+                                Business</a></li>
+                    </ul>
+
+                    <ul class="nav fs-5 p-1">
+                        <li class="nav-item">
+                            <a href="#"
+                                class="nav-link link-body-emphasis px-2">
+                                <i
+                                    class="fa-solid fa-magnifying-glass"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#" class="nav-link link-body-emphasis px-2">
+                                <i class="fa-solid fa-cart-shopping"></i>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#"
+                                class="nav-link link-body-emphasis px-2"><i
+                                    class="fa-regular fa-user">
+                                </i>
+                            </a>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+
+        </nav>
+        <!-- nav-end  -->
+
+        <!-- caurosel-start -->
+        <div id="carouselExampleInterval" class="carousel slide"
+            data-bs-ride="carousel" style="position:static;">
+
+            <div class="carousel-inner">
+
+                <div class="carousel-item active" data-bs-interval="10000">
+
+                    <div id="wm-1">Samsung Live Presents
+                        <br>Eco Bubble-Series<br>
+                        <span
+                            id="wm-sub-1">Avail Benefits upto $1550*</span>
+                        <br>
+
+                        <button
+                            class="btn btn-light rounded-pill fw-medium fs-6">Buy
+                            Now</button>
+
+                    </div>
+
+                    <img src="Washing Machine.jpg" class="d-block w-100"
+                        alt="Washing Machine">
+
+                </div>
+
+                <div class="carousel-item" data-bs-interval="10000">
+
+                    <div id="wm-2">It's time to grab
+                        <br> Samsung Galaxy<br>
+                        <span
+                            id="wm-sub-2">Your wait is over. <br>Get upto
+                            instant bank discount of 20% & $500 off with app
+                            voucher</span>
+                        <br><br>
+
+                        <button
+                            class="btn btn-dark rounded-pill fw-light fs-6">Buy
+                            Now</button>
+
+                    </div>
+
+                    <img src="Products.jpg" class="d-block w-100" alt="Products">
+
+                </div>
+
+                <div class="carousel-item" data-bs-interval="10000">
+
+                    <div id="wm-3">Big TV Days
+                        <br>
+
+                        <span
+                            id="wm-sub-3">15th June - 25th June<br>Awesome
+                            Technology. 'Wowsome' Offers. <br>Get free* S23
+                            Ultra | Free Style | Sound Bar</span>
+
+                        <br>
+
+                        <button
+                            class="btn btn-light rounded-pill fw-medium fs-6">Buy
+                            Now</button>
+                    </div>
+
+                    <img src="TVDays.jpg" class="d-block w-100" alt="TVDays">
+
+                </div>
+
+            </div>
+
+            <button class="carousel-control-prev" type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="prev"
+                style="top: 50%;">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button"
+                data-bs-target="#carouselExampleInterval"
+                data-bs-slide="next"
+                style="top: 50%;">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+        <!-- caurosel-end -->
+
+        <br>
+
+        <!-- nav-start -->
+        <p class="text-center fs-1 fw-bolder">This Week's Highlights</p>
+
+        <ul class="d-flex justify-content-center fw-bolder fs-6"
+            id="highlights">
+            <li class="ms-5" id="home">Mobile</li>
+            <li class="ms-5">TV</li>
+            <li class="ms-5">Appliances</li>
+            <li class="ms-5">Samsung Days</li>
+            <li class="ms-5">Galaxy Ecosystem</li>
+            <li class="ms-5">Samsung Live</li>
+        </ul>
+        <!-- nav-end -->
+
+        <!-- images-start -->
+        <table id="table-images">
+            <tr>
+                <td rowspan="3" id="flip-phone">
+                    <img
+                        src="Flip Phone.avif" alt>
+                </td>
+                <td>
+                    <img src="Galaxy S23.avif" alt>
+                </td>
+                <td>
+                    <img src="Galaxy S21 FE.avif" alt>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="Galaxy A34.avif" alt>
+                </td>
+                <td>
+                    <img src="Galaxy Flip 3 5G.avif" alt>
+                </td>
+            </tr>
+        </table>
+        <!-- images-end -->
+
+        <!-- section-start -->
+        <section>
+
+            <p class="text-center fs-1 fw-bolder mt-5">Mobile & Computing</p>
+
+            <!-- nav-start -->
+            <ul class="d-flex fw-bolder fs-6"
+                id="highlights">
+                <li class="ms-3 me-3" id="home">Galaxy
+                    S23 Ultra</li>
+                <li class="ms-3 me-3">Galaxy Book3 Series</li>
+                <li class="ms-3 me-3">Galaxy Tab S8 Series</li>
+                <li class="ms-3 me-3">Galaxy S22</li>
+                <li class="ms-3 me-3">Galaxy Watch 5 | Watch5 Pro</li>
+            </ul>
+
+            <img src="Galaxy Offer.jpg" class="w-50" id="offer">
+
+            <div class="text-center" id="text">
+
+                <div class="fw-bolder">Galaxy S23 Ultra</div>
+
+                <div class="fs-5 fw-light lh-sm">
+                    <p>Own Epic now at just $478*/month</p>
+                    <p>Benefits of worth $1000* | Extra 5% off on accessory
+                        bundle</p>
+
+                    <div class="d-flex justify-content-center">
+                        <p class="fs-6 fw-bolder m-1"
+                            style="border-bottom: 3px solid;">Learn
+                            More</p>
+                        <pre>   </pre>
+
+                        <button
+                            class="btn btn-dark rounded-pill fw-medium fs-6">Buy
+                            Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-center fs-1 fw-bolder"
+                style="position: relative; top: -200px;">TV
+                & AV</p>
+
+            <!-- nav-start -->
+            <ul class="d-flex justify-content-center fw-bolder fs-6"
+                id="highlights" style="position: relative; top: -200px;">
+                <li class="ms-3 me-3" id="home">Neo QLED</li>
+                <li class="ms-3 me-3">QLED</li>
+                <li class="ms-3 me-3">OLED</li>
+                <li class="ms-3 me-3">The Frame</li>
+                <li class="ms-3 me-3">The Freestyle</li>
+            </ul>
+
+            <img src="Neo.jpg" class="w-100 justify-content-center"
+                style="position: relative; top: -200px;">
+
+            <div class="text-center" id="text"
+                style="position: relative; top: -200px;">
+
+                <div class="fw-bolder">Neo
+                    QLED</div>
+
+                <div class="fs-5 fw-light lh-sm">
+                    <p>Starting $5939/month.</p>
+                    <p>Get Free Freestyle projector worth $6199*</p>
+
+                    <div class="d-flex justify-content-center">
+                        <button
+                            class="btn btn-dark rounded-pill fw-medium fs-6">Buy
+                            Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <p class="text-center fs-1 fw-bolder"
+                style="position: relative; top: -150px;">Home
+                Appliances</p>
+
+            <!-- nav-start -->
+            <ul class="d-flex justify-content-center fw-bolder fs-6 ms-2 me-2"
+                id="highlights" style="position: relative; top: -150px;">
+                <li class="ms-5" id="home">BESPOKE Washer Dryer Combo</li>
+                <li class="ms-5">BESPOKE Side by Side Refridgerator</li>
+                <li class="ms-5">Convertible 5in1 AC</li>
+                <li class="ms-5">Eco Bubble Top Load</li>
+                <li class="ms-5">BESPOKE Jet Pro</li>
+            </ul>
+
+            <img src="WM.jpg" class="w-100 justify-content-center"
+                style="position: relative; top: -150px;">
+
+            <div class="text-center" id="text"
+                style="position: relative; top: -150px;">
+
+                <div class="fw-bolder">BESPOKE Washer Dryer Combo</div>
+
+                <div class="fs-5 fw-light lh-sm">
+                    <p>Starting $10350*</p>
+                    <p>Incl. $26500* off with instant bank discount & app
+                        voucher</p>
+
+                    <div class="d-flex justify-content-center">
+
+                        <button
+                            class="btn btn-dark rounded-pill fw-medium fs-6">Buy
+                            Now</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <!-- nav-end -->
+
+        </section>
+        <!-- section-end -->
+
+        <!-- card-start  -->
+        <p class="text-center fs-1 fw-bolder mt-5 mb-5">Recommended Products</p>
+
+        <div class="d-flex" id="card">
+
+            <div class="card me-5"
+                style="width: 18rem; border: none; border-radius: 25px; background-color: rgb(244,244,244);">
+                <br><br>
+
+                <img src="Galaxy A14 5G.avif" class="card-img-top" alt="...">
+
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Galaxy A14 5G (8GB RAM)</h5>
+                    <br><br>
+
+                    <p class="card-text" style="font-size: small;">Color: Dark
+                        Red</p>
+
+                    <p class="card-text">
+                        <input type="radio" name="Dark Red" checked
+                            style="accent-color: darkred; width: 25px;
+                            height: 25px;">
+                        <input type="radio" name="Black-1" checked
+                            style="accent-color: black; width: 25px;
+                            height: 25px;">
+                        <input type="radio" name="Light Green" checked
+                            style="accent-color: lightgreen; width: 25px;
+                            height: 25px;">
+                    </p>
+
+                    <p class="card-text">
+                        <button
+                            class="btn rounded-pill btn-outline-dark text-bg-light btn-sm">128
+                            GB</button>
+                    </p>
+
+                    <p class="card-text fw-bolder fs-4">
+                        $1999.00
+                    </p>
+
+                    <p class="card-text fs-5">No Cost EMI Starts at $199/month.</p>
+
+                    <p class="card-text">
+                        <button
+                            class="btn rounded-pill btn-dark text-light btn-sm"
+                            style="width: 100%; padding: 10px 0;">Buy
+                            now</button>
+                    </p>
+
+                    <p class="card-text">&nbsp;</p>
+
+                </div>
+
+            </div>
+
+            <div class="card me-5"
+                style="width: 18rem; border: none; border-radius: 25px; background-color: rgb(244,244,244);">
+                <br><br>
+
+                <img src="Galaxy Watch5 Pro.avif" class="card-img-top" alt="...">
+
+                <div class="card-body text-center">
+
+                    <h5 class="card-title fw-bold">Galaxy Watch5 Pro LTE <br>(45
+                        mm)</h5>
+                    <br>
+
+                    <p class="card-text" style="font-size: small;">Color: Black
+                        Titanium (with Black band)</p>
+
+                    <p class="card-text">
+                        <input type="radio" name="Black-2" checked
+                            style="accent-color: black; width: 25px;
+                        height: 25px;">
+                        <input type="radio" name="Grey" checked
+                            style="accent-color: grey; width: 25px;
+                        height: 25px;">
+                    </p>
+                    <br><br>
+
+                    <p class="card-text fw-bolder fs-4">
+                        $4999.00
+                    </p>
+
+                    <p class="card-text fs-5">No Cost EMI Starts at $374/month.</p>
+
+                    <p class="card-text">
+                        <button
+                            class="btn rounded-pill btn-dark text-light btn-sm"
+                            style="width: 100%; padding: 10px 0;">Buy
+                            now</button>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card me-5"
+                style="width: 18rem; border: none; border-radius: 25px; background-color: rgb(244,244,244);">
+                <br>
+
+                <img src="TV.avif"
+                    class="card-img-top justify-content-center"
+                    alt="..."
+                    style="width: 95%; position: relative; left: 2%;">
+                <br>
+
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold fs-5">1m 08cm (43") CUE60
+                        Crystal
+                        4K UHD Smart TV</h5>
+                    <br><br><br><br><br>
+
+                    <p class="card-text d-lg-flex">
+                        <button
+                            class="btn rounded-pill btn-outline-dark text-bg-light btn-sm ms-5 me-2">43</button>
+                        <button
+                            class="btn btn-sm me-2">50</button>
+                        <button
+                            class="btn btn-sm me-2">55</button>
+                        <button
+                            class="btn btn-sm me-2">65</button>
+                    </p>
+
+                    <p class="card-text fw-bolder fs-4">
+                        $2899.00
+                    </p>
+
+                    <p class="card-text fs-5">No Cost EMI Starts at
+                        $321.11/month.</p>
+
+                    <p class="card-text">
+                        <button
+                            class="btn rounded-pill btn-dark text-light btn-sm"
+                            style="width: 100%; padding: 10px 0;">Buy
+                            now</button>
+                    </p>
+
+                </div>
+
+            </div>
+
+            <div class="card me-5"
+                style="width: 18rem; border: none; border-radius: 25px; background-color: rgb(244,244,244);">
+                <br><br>
+
+                <img src="GalaxyTab S6 Lite.avif" class="card-img-top w-75"
+                    alt="..." style="position: relative; left: 10%;">
+                <br><br>
+
+                <div class="card-body text-center">
+                    <h5 class="card-title fw-bold">Galaxy Tab S6 Lite (LTE, 4GB
+                        RAM) 2022 Edition</h5>
+                    <br><br>
+
+                    <p class="card-text" style="font-size: small;">Color: Oxford
+                        Grey</p>
+
+                    <p class="card-text">
+                        <input type="radio" name="Oxford Grey" checked
+                            style="accent-color: grey; width: 25px;
+                            height: 25px;">
+                        <input type="radio" name="Blue" checked
+                            style="accent-color: blue; width: 25px;
+                            height: 25px;">
+                        <input type="radio" name="Red" checked
+                            style="accent-color: red; width: 25px;
+                            height: 25px;">
+                    </p>
+
+                    <p class="card-text d-flex">
+                        <button
+                            class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-2 ms-5">64
+                            GB</button>
+                        <button
+                            class="btn text-bg-light btn-sm ms-4">128
+                            GB</button>
+                    </p>
+
+                    <p class="card-text fw-bolder fs-4">
+                        $3199.00
+                    </p>
+
+                    <p class="card-text fs-5">No Cost EMI Starts at
+                        $240.31/month.</p>
+
+                    <p class="card-text">
+                        <button
+                            class="btn rounded-pill btn-dark text-light btn-sm"
+                            style="width: 100%; padding: 10px 0;">Buy
+                            now</button>
+                    </p>
+
+                </div>
+
+            </div>
+
+        </div>
+        <!-- card-end -->
+
+        <!-- section-start  -->
+        <p class="fw-bolder text-black mt-5 mb-5" id="explore">Explore
+            #DoWhatYouCant</p>
+
+        <table id="dwyc">
+            <tr>
+                <td><img src="Explore.webp" class="ms-4 me-0"></td>
+                <td>
+                    <hr>
+                    <p>01 &nbsp; Tips for Navigating Big Life Changes</p>
+                    <button class="btn bg-light-subtle">Learn More</button>
+                    <hr id="hr-sub">
+                    <p>&nbsp;</p>
+                    <p>02 &nbsp; Feel Free to Freestyle</p>
+                    <p>&nbsp;</p>
+                    <p>03 &nbsp; Hosting Tips to Alleviate Holiday Stress</p>
+                    <p>&nbsp;</p>
+                    <p>04 &nbsp; Meet G-NUSMAS, the Curious extraterrestrial</p>
+                    <p>&nbsp;</p>
+                    <p>05 &nbsp; Solve for Tomorrow</p>
+                    <p>&nbsp;</p>
+                </td>
+            </tr>
+        </table>
+
+        <!-- section-end -->
+
+        <!-- search-start -->
+        <p class="text-center fs-1 fw-bolder text-black mt-5 mb-5">Looking for
+            something else?</p>
+
+        <form class="w-25 d-flex" role="search">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                <path
+                    d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg>
+            <input class="form me-2 border-0 ms-2 fs-5" type="search"
+                placeholder="Search Keyword"
+                aria-label="Search">
+        </form>
+
+        <div class="text-center" style="font-size: x-small;">
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1">Galaxy
+                S23 Ultra</button>
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1">Galaxy
+                Z Fold4</button>
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1">QLED
+                8k</button>
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1">UHD
+                TVs</button>
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1">Eco
+                Bubble</button>
+        </div>
+
+        <div class="text-center mt-2">
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1 mt-1">Curd
+                Maestro</button>
+            <button
+                class="btn rounded-pill btn-outline-dark text-bg-light btn-sm me-1 mt-1">Smart
+                Monitors</button>
+        </div>
+
+        <div class="text mt-lg-5 ms-lg-5" style="font-size: small;">
+            <p>* 5G Devices are 5G ready, connectivity dependent on network
+                availability.</p>
+            <p>* Images shown here are for representational purpose only, actual
+                may vary. All features, specifications and prices are subject to
+                change without prior notice. Model availability may vary from
+                location to location.</p>
+            <p>* Image simulated. S Pen Fold Edition sold separately and is only
+                compatible with Galaxy Z Fold4 and Galaxy Z Fold3.</p>
+            <p>* Watch screen image simulated for illustrative purpose.
+                Availability of colours, sizes, models, and watch bands may vary
+                by country or carrier.</p>
+            <p>* Image simulated. Available colours of Galaxy Buds2 Pro may vary
+                by country or carrier.</p>
+            <p># T&C Apply. Cashback at the sole discretion of the issuer /
+                NBFC.</p>
+            <p>** Product launch dates vary from country to country. Some
+                products may be launched earlier in few countries.</p>
+            <p>* Offer valid on select models only.</p>
+        </div>
+        <!-- search-end -->
+
+        <!-- footer-start -->
+        <table id="footer-table">
+            <tr>
+                <td class="fw-bold fs-5" style="left: 0%;">Product & Service</td>
+                <td class="fw-bold fs-5" style="left: 0%;">Shop</td>
+                <td class="fw-bold fs-5" style="left: 0%;">Support</td>
+                <td class="fw-bold fs-5" style="left: 0%;">Account & Community</td>
+                <td class="fw-bold fs-5" style="left: 0%;">Sustainability</td>
+            </tr>
+            <tr>
+                <td style="border-left: 0;">Smart Phones</td>
+                <td>Cancellation & Return Policy</td>
+                <td>WhatsApp Us</td>
+                <td>My Page</td>
+                <td>Environment</td>
+            </tr>
+            <tr>
+                <td style="border-left: 0;">Tablets</td>
+                <td>Track Order Status</td>
+                <td>Sign Language</td>
+                <td>My Products</td>
+                <td>Security & Privacy</td>
+            </tr>
+            <tr>
+                <td>Audio Sound</td>
+                <td>Welcome Voucher</td>
+                <td>Email Us</td>
+                <td>Orders</td>
+                <td>Accessibility</td>
+            </tr>
+            <tr>
+                <td>Watches</td>
+                <td>Samsung Referral Advantage</td>
+                <td>Call Us</td>
+                <td>Wishlist</td>
+                <td>Diversity - Equality - Inclusion</td>
+            </tr>
+            <tr>
+                <td>Smart Switch</td>
+                <td>Samsung Student Advantage</td>
+                <td>Email the CEO</td>
+                <td>Vouchers</td>
+                <td>Corporate Citizenship</td>
+            </tr>
+            <tr>
+                <td>Mobile Accessories</td>
+                <td>Defence Purchase Program</td>
+                <td>Community</td>
+                <td>My Referrals</td>
+                <td>Corporate Sustainability</td>
+            </tr>
+            <tr>
+                <td>TVs</td>
+                <td>Corporate Employee Program</td>
+                <td>Product Registration</td>
+                <td>Service</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Sound Devices</td>
+                <td>Corporate Bulk Purchase</td>
+                <td>Service Center</td>
+                <td>Community</td>
+                <td class="fw-bold fs-5">About Us</td>
+            </tr>
+            <tr>
+                <td>Refridgerators</td>
+                <td>Samsung Experience Store</td>
+                <td>Share your Opinion</td>
+                <td>&nbsp;</td>
+                <td>Company Info</td>
+            </tr>
+            <tr>
+                <td>Laundry</td>
+                <td>Store Locator</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Business Area</td>
+            </tr>
+            <tr>
+                <td>Air Solutions</td>
+                <td>Smart Club</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Brand Identity</td>
+            </tr>
+            <tr>
+                <td>Cooking Appliances</td>
+                <td>FAQs</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Careers</td>
+            </tr>
+            <tr>
+                <td>Monitors</td>
+                <td>Terms of Use</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Investor Relations</td>
+            </tr>
+            <tr>
+                <td>Memory Storage</td>
+                <td>Grievance Redressal</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>News Room</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>Explore</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Ethics</td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+                <td>Samsung Design</td>
+            </tr>
+        </table>
+
+        <p id="footer-para">
+            Copyright &copy; Kishore Kumar S
+            <br>
+            Please dispose of e-waste and plastic waste responsibly.
+            <br>
+            For more information or e-waste pick up, please call 1800 5 7267864
+            or click here for more details.
+        </p>
+
+        <hr>
+
+        <div id="foot" class="d-flex">
+            <ul class="me-auto mb-0 d-flex">
+                <li class="fw-bolder">India - English</li>
+                <li class="ms-5">Privacy</li>
+                <li class="ms-5">Legal</li>
+                <li class="ms-5">CSR Policy</li>
+                <li class="ms-5">Sitemap</li>
+            </ul>
+            <ul class="mb-0 me-5 d-flex">
+                <li class="ms-5 mt-1">Stay in the Loop?</li>
+                <li class="ms-3"><i class="bi bi-facebook"></i></li>
+                <li class="ms-3"><i class="bi bi-twitter"></i></li>
+                <li class="ms-3"><i class="bi bi-instagram"></i></li>
+                <li class="ms-3"><i class="bi bi-youtube"></i></li>
+                <li class="ms-3"><i class="bi bi-linkedin"></i></li>
+                <li class="ms-3"><i class="bi bi-whatsapp"></i></li>
+            </ul>
+        </div>
+        <!-- footer-end -->
+
+    </body>
+</html>

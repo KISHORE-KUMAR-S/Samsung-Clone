@@ -1,0 +1,231 @@
+*{
+    width: auto;
+    font-family: 'Noto Sans', sans-serif;
+}
+
+#nav-item-1:hover, #nav-item-2:hover, 
+#nav-item-3:hover, #nav-item-4:hover, 
+#nav-item-5:hover, #nav-item-6:hover, 
+#nav-item-7:hover, #nav-item-8:hover,
+#nav-item-9:hover, #nav-item-10:hover{
+    background-color: black;
+    -webkit-text-fill-color: white;
+}
+
+#wm-1, #wm-2, #wm-3{
+    position: absolute;
+    line-height: normal;
+}
+
+#wm-1{
+    top: 30%;
+    left: 50%;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+#wm-sub-1{
+    font-size: medium;
+}
+
+#wm-2{
+    top: 30%;
+    left: 5%;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+#wm-sub-2{
+    font-size: medium;
+    line-height: normal;
+}
+
+#wm-3{
+    top: 30%;
+    font-size: 50px;
+    color: white;
+    font-weight: bolder;
+    line-height: 50px;
+    left: 55%;
+}
+
+#wm-sub-3{
+    font-size: 16px;
+    font-weight: normal;
+    line-height: normal;
+}
+
+#highlights{
+    list-style-type: none;
+    justify-content: center;
+}
+
+#highlights #home{
+    border-bottom: 3px solid;
+}
+
+#table-images{
+    position: relative;
+    top: 20px;
+    width: 100%;
+}
+
+#table-images img{
+    border-radius: 30px;
+    width: 90%;
+    transform: scale(1);
+}
+
+#table-images img:hover{
+    transform: scale(1.02);
+}
+
+#flip-phone{
+    position: relative;
+    left: 3%;
+}
+
+section{
+    background-color: rgb(244,244,244);
+}
+
+#offer{
+    position: relative;
+    left: 25%;    
+}
+
+#text{
+    position: relative;
+    top: -250px;
+    font-size: 50px;
+}
+#card{
+    position: relative;
+    justify-content: center;
+}
+
+#explore{
+    font-size: 40px;
+    position: relative;
+    text-align: center;
+    color: black;
+    opacity   : 0.8;
+}
+
+#explore:after{
+    display: block;
+    position: absolute;
+    left: 500px;
+    width: 500px;
+    content: '';
+    color: black;
+    border-bottom: solid 2px black;
+    transform: scaleX(0);
+    transition: transform 300ms ease-in-out;
+}
+
+#explore:hover:after {
+    transform: scaleX(1);
+}
+
+#dwyc tr{
+    width: 100%;
+}
+
+#dwyc img{
+    border-radius: 20px;
+}
+
+#dwyc p{
+    width: 100%;
+    position: relative;
+    justify-content: center;
+    font-size: 23px;
+    left: 10%;
+    font-weight: bold;
+}
+
+#dwyc button{
+    position: relative;
+    left: 16%;
+    font-size: 15px;  
+}
+
+#dwyc hr{
+    position: relative;
+    width: 105%;
+    left: 10%;
+    border: 1px solid;
+}
+
+#dwyc #hr-sub{
+    left: 18%;
+    width: 97%;
+}
+
+form{
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border: 1px solid grey;
+    background-color: rgb(244,244,244);
+    padding: 10px 20px 10px 30px;
+    border-radius: 20px;
+}
+
+form input{
+    background-color: rgb(244,244,244);
+}
+
+#footer-table{
+    width: 96%;
+    display: inline-table;
+    margin-inline-start: 1%;
+    margin-inline-end: 1%;
+}
+
+#footer-table tr{
+    position: relative;
+    left: 3%;
+}
+
+#footer-table td{
+    padding-bottom: 5px;
+    font-size: 15px;
+    left: 2%;
+    border-left: 1px solid lightgrey;
+}
+
+#footer-table td:first-child{
+    border-left: 0;
+}
+
+#footer-table tr:first-child{
+    border-top: 1px solid lightgrey;
+}
+
+#footer-table tr:last-child{
+    border-bottom: 1px solid lightgrey;
+}
+
+#footer-para{
+    position: relative;
+    margin: 2%;
+    font-size: small;
+}
+
+#foot{
+    font-size: small;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul i{
+    font-size: 20px;
+}
