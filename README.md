@@ -1,3 +1,5 @@
 # Samsung-Clone
 Samsung Clone Website using HTML, CSS and Bootstrap
-Use Width: 90%
+
+#Github-pages
+https://kishore-kumar-s.github.io/Samsung-Clone-Webpage-Project/
